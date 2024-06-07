@@ -1,0 +1,112 @@
+.pre-container{
+    width:100vw;
+    padding:20px;
+    overflow-x: auto;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:768px){
+    .pre-container{
+        padding: 40px;;
+    }
+}
+
+.table-description{
+    font-size: 14px;
+    font-weight: 500;
+    max-width:280px;;
+}
+
+.table-ingredients{
+    max-width:200px;
+}
+
+.table-nutrition{
+    min-width:110px;
+}
+
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.table-columns{
+    font-size:14px;
+}
+
+
+.preview-category{
+    font-weight: 500;
+    color: black;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.category-span{
+    color:skyblue;
+    margin-left:2px;
+}
+
+.preview-nutrition{
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1px;
+    font-size: 15px;
+}
+
+.preview-weights{
+    margin-bottom: 5px;;
+}
+
+@media screen and (max-width:768px){
+    .preview-nutrition{
+        font-size: 10px;
+    }
+    .preview-category{
+        font-size: 10px;
+    }
+}
+
+.preview-image{
+    width:40%;
+}
+.cols-with-max-width{
+    max-width:100px;
+}
+
+.field-value{
+    font-size:14px;
+    font-weight: 500;
+}
+
+.edit-button{
+    color: blue;
+    cursor: pointer;
+    border:none;
+    background: transparent;
+}
+
+.user-name{
+    overflow-x: auto;
+}
+
+.preview-images-container{
+    display: flex;
+    flex-direction: row;
+    max-width:200px;
+    min-width:150px;
+    flex-wrap: wrap;
+}
